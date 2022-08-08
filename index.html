@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Drum Kit</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+  <div class="keys">
+    <div>
+        <div data-key="65" class="key">
+            <kbd>A</kbd>
+            <span class="sound">HiHat</span>
+          </div>
+          <div data-key="83" class="key">
+            <kbd>S</kbd>
+            <span class="sound">Kick</span>
+          </div>
+          <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <span class="sound">Shaker</span>
+          </div>
+    </div>
+
+    <div>
+        <div data-key="70" class="key">
+            <kbd>F</kbd>
+            <span class="sound">Snare</span>
+          </div>
+          <div data-key="71" class="key">
+            <kbd>G</kbd>
+            <span class="sound">Piano</span>
+          </div>
+          <div data-key="72" class="key">
+            <kbd>H</kbd>
+            <span class="sound">Piano</span>
+          </div>
+    </div>
+
+    <div>
+        <div data-key="74" class="key">
+            <kbd>J</kbd>
+            <span class="sound">Piano</span>
+          </div>
+          <div data-key="75" class="key">
+            <kbd>K</kbd>
+            <span class="sound">Bell</span>
+          </div>
+          <div data-key="76" class="key">
+            <kbd>L</kbd>
+            <span class="sound">Clap</span>
+          </div>
+    </div>
+    
+    <div>
+        <div data-key="77" class="key">
+            <kbd>M</kbd>
+            <span class="sound">Crash</span>
+          </div>
+          <div data-key="78" class="key">
+            <kbd>N</kbd>
+            <span class="sound">Cymbal</span>
+          </div>
+          <div data-key="79" class="key">
+            <kbd>O</kbd>
+            <span class="sound">Rev</span>
+          </div>
+    </div>
+    
+  </div>
+
+  <audio data-key="65" src="/sounds/Alchemist HiHat 2.wav"></audio>
+  <audio data-key="83" src="sounds/Alchemist Kick 1.wav"></audio>
+  <audio data-key="68" src="sounds/Alchemist Shaker 1.wav"></audio>
+  <audio data-key="70" src="sounds/Alchemist Snare 2.wav"></audio>
+  <audio data-key="71" src="sounds/assets_Piano Chord 208.mp3"></audio>
+  <audio data-key="72" src="sounds/assets_Piano Chord 209.mp3"></audio>
+  <audio data-key="74" src="sounds/assets_Piano Chord 331.mp3"></audio>
+  <audio data-key="75" src="sounds/Bell.wav"></audio>
+  <audio data-key="76" src="sounds/clap.wav"></audio>
+  <audio data-key="77" src="sounds/Crash_2.WAV"></audio>
+  <audio data-key="78" src="sounds/Cymbal 2.wav"></audio>
+  <audio data-key="79" src="sounds/Rev_3.wav"></audio>
+
+<script src="/script.js">
+</script>
+
+
+</body>
+</html>
