@@ -49,9 +49,3 @@
     color: #ffc600;
   }
   
-  @media screen and (max-width: 768px) {
-    .key {
-        /* padding: 20px; */
-        font-size: 3vh;
-    }
-  }
